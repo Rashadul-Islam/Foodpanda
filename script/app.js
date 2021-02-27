@@ -53,7 +53,6 @@
             
             const detailsDiv=`
             <h3>Your Submitted Information</h3>
-            <div class='center'>
             <p>Name: ${getName}</p>
             <p>Gender: ${getGender}</p>
             <p>Date: ${getDate}</p>
@@ -64,7 +63,6 @@
             <p>Details: ${getDetails}</p>
             <p>Food Rating: ${getFoodRating}</p>
             <p>Service Rating: ${getServiceRating}</p>
-            </div>
             <button type="button" class="btn btn-primary" onclick='EditForm()'>Edit</button>
             `
             document.getElementById('show-data').innerHTML=detailsDiv;     
